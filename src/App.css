@@ -1,1 +1,51 @@
-cv
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #290432; /* Replace with your desired color */
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-input{
+  border: 2px solid black;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.add-btn {
+  background-color: #461053;
+  color: white;
+  border:solid 2px black;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left:25%;
+  width:50%;
+  
+
+}
+
+.add-btn:hover {
+  background-color: #520941;
+}
+
+
