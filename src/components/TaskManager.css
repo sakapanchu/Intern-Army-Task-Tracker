@@ -1,0 +1,10 @@
+.task-manager {
+    max-width: 600px;
+    width: 100%;
+    margin:0 auto;
+    background-color: #b272b3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(226, 21, 164, 0.1);
+    
+  }

@@ -1,1 +1,28 @@
-d
+.task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  
+  .task-complete {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  .complete-btn {
+    background-color: #2b0531;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .complete-btn:hover {
+    background-color: #520941;
+  }
+  
